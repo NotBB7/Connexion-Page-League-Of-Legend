@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher Connexion Compte</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="image/gamepad-solid.ico">
+
+
+</head>
+
+<body>
+    <video autoplay muted loop id="video">
+        <source src="/image/Warrior.mp4" type="video/mp4">
+      </video>
+    <section class="Connexion">
+        <div class="formulaire">
+            <div class="container">
+                <img src="/image/riot-games-logo.png" alt="">
+                <h1>Connexion</h1>
+                <form action="" class="login">
+                    <input type="text" id="texte" placeholder="NOM D'UTILISATEUR ">
+                    <input type="password" id="texte" placeholder="MOT DE PASSE">
+                </form>
+                <div class="reseaux">
+                    <div><a id="facebook" href="#"><i class="fab fa-facebook"></i></a></div>
+                    <div><a id="google" href="#"><i class="fab fa-google"></i></i></a></div>
+                    <div><a id="apple" href="#"><i class="fab fa-apple"></i></a></div>
+                    <div><a id="xbox" href="#"><i class="fab fa-xbox"></i></a></div>
+                </div>
+                <div class="check">
+                    <label class="chk">
+                        <input type="checkbox" name="checkin" />
+                        <span><i class="fas fa-check"></i></span>
+                    </label>
+                </div>
+                <div class="enregistrer"><span>Rester connecté</span></div>
+                <div class="boutonvalider">
+                    <button class="button" id="bouton" type="button "><a href=""><i
+                                class="fas fa-arrow-right"></a></i></button>
+                </div>
+                <div class="information">
+                    <a href="#"><span>IMPOSSIBLE DE VOUS CONNECTER ?</span></a>
+                    <a href="#" id="create"><span>CREER UN COMPTE</span></a>
+                </div>
+                <div class="version">
+                    <a href="#"><span>v66.0.2</span></a>
+                </div>
+            </div>
+            <div class="alerte">
+                <a href="#"><span></span><i class="fas fa-exclamation"></i></a>
+                <div class="contenue">
+                    <h2>Problème liés au mode personnalisé  et à l'outil d'entraînement</h2>
+                    <i class="fas fa-clock"></i><h3>14/06/2023 06:29</h3>
+                    <p>L'outil d'entrainement a été temporairement desactivé.</p>
+                </div>
+            </div>
+            <div class="utilisateur">
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
