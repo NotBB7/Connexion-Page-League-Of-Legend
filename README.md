@@ -10,7 +10,7 @@
     <a href="#Auteur">Auteur</a> 
 </p>
 
-![forthebadge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![forthebadge]([https://forthebadge.com/images/badges/validated-html5.svg](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white))
+![forthebadge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![forthebadge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Information
 
