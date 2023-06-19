@@ -365,17 +365,3 @@ video{
 .utilisateur:hover a:hover{
     color: #ffffff;
 }
-
-
-@media screen and (max-width: 768px) {
-    /* Styles pour les écrans de 768 pixels de large ou moins */
-  }
-  
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Styles pour les écrans entre 769 et 1024 pixels de large */
-  }
-  
-  @media screen and (min-width: 1025px) {
-    /* Styles pour les écrans de 1025 pixels de large ou plus */
-  }
-  
